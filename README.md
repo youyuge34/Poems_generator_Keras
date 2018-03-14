@@ -1,7 +1,8 @@
 ### Poems_generator_Keras
-
 唐诗，古诗句自动生成，基于keras，LSTM-RNN。
+
  
+ 
 **Version 1.0: **
 
 在[ioiogoo](https://github.com/ioiogoo/poetry_generator_Keras)的架构之上进行优化：
