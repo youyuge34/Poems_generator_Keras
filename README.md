@@ -31,18 +31,17 @@ Poems_generator_Keras
  
 
  
-使用训练好的模型：
+如何使用训练好的模型：
 -------
- 
 1. 我训练好了一个h5模型，点击[页面](https://www.floydhub.com/youyuge34/projects/poems_generator/4/output/poetry_model.h5)中右侧的小箭头可下载，迅雷满速
 2. 将`poetry_model.h5`放入根目录，记得改一下`self.loaded_model = True`
-3. 注意，此模型只跑了4000+epoch，还有提升空间     
-       
-       
-       
+3. 注意，此模型只跑了4000+epoch，还有提升空间       
+            
+        
+            
 更新说明：
-========
-       
+------------
+ 
 Version 1.0:
 --------
      
