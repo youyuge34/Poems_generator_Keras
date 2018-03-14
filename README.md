@@ -42,9 +42,8 @@ Poems_generator_Keras
 更新说明：
 ------------
  
-Version 1.0:
---------
-     
+**Version 1.0:**    
+     
 在[ioiogoo](https://github.com/ioiogoo/poetry_generator_Keras)的架构之上进行优化：
 
 - 改用`Jupyter notebook`    
