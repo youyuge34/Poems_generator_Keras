@@ -1,7 +1,9 @@
 Poems_generator_Keras
 ========
  
-> 唐诗，古诗句自动生成，基于keras，LSTM-RNN。
+- 唐诗，古诗，五言绝句自动生成，基于Keras，LSTM-RNN。       
+- 附带训练好的模型文件，可直接上手使用。         
+- 功能：藏头诗，随机写诗，给定第一句诗/字进行作诗        
  
  
 
@@ -41,7 +43,14 @@ Poems_generator_Keras
             
 更新说明：
 ------------
+
+**Version 1.1:**
+
+- 代码大幅度重构，更加简洁                           
+- 添加多个模型方法，可按需要生成诗句        
+- notebook中添加样例        
  
+    
 **Version 1.0:**    
      
 在[ioiogoo](https://github.com/ioiogoo/poetry_generator_Keras)的架构之上进行优化：
