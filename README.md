@@ -29,10 +29,42 @@ Poems_generator_Keras
 ==================Epoch 4316=====================           
 爱酒如偷蜜，心若大如去。入忆似烟春，如成台忆圣。     
 我爱窦高士，如箭变素外。明成丹泥为，今风酒影重。     
-画楼吹笛妓，何从出还玉。遍阴火川下，乘合未云虚。       
- 
+画楼吹笛妓，何从出还玉。遍阴火川下，乘合未云虚。         
+
+
+
+环境配置
+-------
+- python3
+- tensorflow
+- Keras
+- h5py
+- Jupyter
+- numpy……      
 
  
+食用指南
+--------
+```
+from config import Config
+#加载模型（若无训练好的模型，会开始训练）
+model = PoetryModel(Config)
+print('model loaded')
+
+#藏头诗
+sen = model.predict_hide('争云日夏')
+print(sen)
+```
+ 
+输出结果：    
+```
+争空谁上尽，云云中林翠。日落危西烟，夏更无长塞。
+```
+ 
+**其他方法调用请看notebook，里面都有。**       
+
+
+
 如何使用训练好的模型：
 -------
 1. 我训练好了一个h5模型，点击[页面](https://www.floydhub.com/youyuge34/projects/poems_generator/4/output/poetry_model.h5)中右侧的小箭头可下载，迅雷满速
